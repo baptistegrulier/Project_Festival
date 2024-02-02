@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <title>Harmony Fest</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://fonts.cdnfonts.com/css/silkstone"/>
+    <link rel="stylesheet" href="CSS/Body2.css">
+    <script src="JS/script.js" defer></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css" />
+
+</head>
+<body>
+    <style>
+        @import url('https://fonts.cdnfonts.com/css/silkstone');
+    </style>
+    <video autoplay loop muted playsinline id="videoBackground">
+        <source src="Sources\shadergradient.webm" type="video/webm">
+    </video>
+    <header>
+        <div class="banner-container">
+            <img src="Sources/banner.jpg" alt="En-tête" class="banner">
+            <div class="flou">
+                <h1>Harmony Fest</h1>
+            </div>
+        </div>
+    </header>
+
+    <main>
+        <nav>
+            <ul>
+                <li><a href="index.html"><button class="bn632-hover bn25">Home</button></a></li>
+                <li><a href="programme.html"><button class="bn632-hover bn25">Programme</button></a></li>
+                <li><a href="contact.html"><button class="bn632-hover bn25">Contact</button></a></li>
+                <li id="authBtn" style="display: block;"><a href="authentification.html"><button class="bn632-hover bn25">Connexion</button></a></li>
+                <li id="resBtn" style="display: none;"><a href="reservations.html"><button class="bn632-hover bn25">Réservation</button></a></li>
+                <li id="cmdBtn" style="display: none;"><a href="commandes.php"><button class="bn632-hover bn25">Commandes</button></a></li>
+                <li id="logoutBtn" style="display: none;"><a href="logout.php"><button class="bn632-hover bn25">Déconnexion</button></a></li>
+            </ul>
+        </nav>
+
+        <section id="visitorCountSection">
+            <div class="visitorCountContainer">
+                <h4>Visiteurs actuellement sur le site</h4>
+                <p id="visitorCount"></p>
+            </div>
+        </section>
+
+        <section id="programme">
+            <div class="titre-programme-container">
+                <div class="generator_title_shape" id="Titre" style="border-radius: 53% 47% 48% 52% / 51% 61% 39% 49%;">
+                    <h2>Programmation</h2>
+                </div>
+            </div>
+            
+            <div class="programme-container">
+                <div class="generator__shape" id="Vendredi" style="border-radius: 60% 40% 67% 33% / 30% 30% 70% 70%;">
+                    <h3>Vendredi (18h - 23h)</h3>
+                    <ul>
+                        <li>18h-19h : Josman</li>
+                        <li>19h-20h : Houdi</li>
+                        <li>20h-21h : Disiz</li>
+                        <li>21h-22h : Damso</li>
+                        <li>22h-23h : 47ter</li>
+                    </ul>
+                </div>
+                <div class="generator__shape" id="Samedi" style="border-radius: 31% 69% 39% 61% / 30% 47% 53% 70%;">
+                    <h3>Samedi (10h - 23h)</h3>
+                    <ul>
+                        <li>10h-11h : Zeu</li>
+                        <li>11h-12h : Jolagreen23</li>
+                        <li>12h-13h : Morphée</li>
+                        <li>13h-14h : Selug</li>
+                        <li>14h-15h : Prince Waly</li>
+                        <li>15h-16h : H Holborn</li>
+                        <li>16h-17h : Houdi</li>
+                        <li>17h-18h : Nekfeu</li>
+                        <li>18h-19h : PLK</li>
+                        <li>19h-20h : Luidji</li>
+                        <li>20h-21h : Ajna</li>
+                        <li>21h-22h : Orelsan</li>
+                        <li>22h-23h : Yamê</li>
+                    </ul>
+                </div>
+                <div class="generator__shape" id="Dimanche" style="border-radius: 49% 51% 31% 69% / 70% 32% 68% 30%;">
+                    <h3>Dimanche (10h - 20h)</h3>
+                    <ul>
+                        <li>10h-11h : Achim</li>
+                        <li>11h-12h : Yvnnis</li>
+                        <li>12h-13h : RSCL</li>
+                        <li>13h-14h : Laylow</li>
+                        <li>14h-15h : Lomepal</li>
+                        <li>15h-16h : Jamiroquai</li>
+                        <li>16h-17h : Ninho</li>
+                        <li>17h-18h : Luther</li>
+                        <li>18h-19h : Bekar</li>
+                        <li>19h-20h : Tao Andra</li>
+                    </ul>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <ul>
+            <li class="item">
+              <a href="https://instagram.com">
+                <i class="fa-brands fa-instagram icon"></i>
+              </a>
+            </li>
+            <li class="item">
+              <a href="https://youtube.com">
+                <i class="fa-brands fa-youtube icon"></i>
+              </a>
+            </li>
+            <li class="item">
+              <a href="https://twitter.com">
+                <i class="fa-brands fa-x-twitter icon"></i>
+              </a>
+            </li>
+            <li class="item">
+              <a href="tel:+3378340176">
+                <i class="fa-solid fa-phone icon"></i>
+              </a>
+            </li>
+            <li class="item">
+                <a href="mailto:bat60400@gmail.com">
+                  <i class="fa-solid fa-envelope icon"></i>
+                </a>
+              </li>
+          </ul>
+    </footer>
+    
+</body>
+</html>
